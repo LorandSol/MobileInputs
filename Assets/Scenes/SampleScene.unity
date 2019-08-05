@@ -531,6 +531,7 @@ GameObject:
   - component: {fileID: 1307775074}
   - component: {fileID: 1307775076}
   - component: {fileID: 1307775077}
+  - component: {fileID: 1307775075}
   m_Layer: 0
   m_Name: Zomling
   m_TagString: Untagged
@@ -552,6 +553,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1307775075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307775073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 034e92eaf8458214ab1c5b6d000536f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotateSpeed: 10
+  joystickR: {fileID: 1005861609}
 --- !u!212 &1307775076
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1048,7 +1063,6 @@ GameObject:
   - component: {fileID: 1921969402}
   - component: {fileID: 1921969405}
   - component: {fileID: 1921969404}
-  - component: {fileID: 1921969403}
   m_Layer: 5
   m_Name: BackgroundR
   m_TagString: Untagged
@@ -1076,25 +1090,6 @@ RectTransform:
   m_AnchoredPosition: {x: 138, y: -165}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1921969403
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1921969401}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 619c00c22dc2f65429d81ef5791644d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  handleRange: 1
-  deadZone: 0
-  axisOptions: 0
-  snapX: 0
-  snapY: 0
-  background: {fileID: 0}
-  handle: {fileID: 0}
 --- !u!114 &1921969404
 MonoBehaviour:
   m_ObjectHideFlags: 0
